@@ -1,0 +1,33 @@
+ GET 			To get a specific item
+  /			Returns the welcome message and version information 	
+  /_active_tasks	Obtains a list of the tasks running in the server 	
+  /_all_dbs		Returns a list of all the databases 	
+  /_config		Obtains a list of the entire server configuration 	
+   /{section}		Returns all the configuration values for the specified section 	
+    /{key}		Returns a specific section/configuration value 	
+  /_db_updates		Return the server changes of databases 	
+  /_log			Returns the server log file 	
+  /_membership		Returns a list of nodes 	 	
+  /_session		Returns Cookie-based login user information 	
+  /_stats		Returns server statistics	
+  /_utils		Redirects to /_utils/ 	
+  /_utils/		CouchDB administration interface (Fauxton) 	
+  /_uuids		Generates a list of UUIDs from the server 	
+  /favicon.ico		Returns the site icon
+  /{db}			Returns the database information
+   /_all_docs		Returns a built-in view of all documents in this database
+   /_changes		Returns changes for the given database
+   /_design/{ddoc}	Returns the design document 	
+    /_info		Returns view index information for the specified design document
+    /_list/{func}/{other-ddoc}/{view}	Executes a list function against the view from other design document
+    /_list/{func}/{view}		Executes a list function against the view from the same design document
+    /_show/{func}	Executes a show function against null document
+     /{docid}		Executes a show function against the specified document
+    /_view/{view}	Returns results for the specified stored view
+    /{attname}		Gets the attachment of a design document
+   /_index		List all indexes.
+   /_local/{docid}	Returns the latest revision of the local document
+   /_revs_limit		Returns the limit of historical revisions to store for a single document in the database
+   /_security		Returns the special security object for the database
+   /{docid}		Returns the document
+    /{attname}		Gets the attachment of a document

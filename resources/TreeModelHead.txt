@@ -1,0 +1,6 @@
+ HEAD			To get the HTTP header of a GET request without the body of the response
+  /{db}			Checks the database existence
+   /_design/{ddoc}	Returns bare information in the HTTP Headers for the design document
+    /{attname}		Returns bare information in the HTTP Headers for the attachment
+   /{docid}		Returns bare information in the HTTP Headers for the document
+    /{attname}		Returns bare information in the HTTP Headers for the attachment

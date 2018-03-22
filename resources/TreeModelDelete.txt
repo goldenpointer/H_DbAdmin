@@ -1,0 +1,10 @@
+ DELETE			To delete documents, views, and design documents
+  /_config/{section}/{key}				Removes the current setting
+  /_session		Logout Cookie-based user
+  /{db}			Deletes an existing database
+   /_design/{ddoc}	Deletes the design document
+    /{attname}		Deletes an attachment of a design document
+   /_index/{designdoc}/json/{name}			Delete an index
+   /_local/{docid}	Deletes the local document
+   /{docid}		Deletes the document
+    /{attname}		Deletes an attachment of a document

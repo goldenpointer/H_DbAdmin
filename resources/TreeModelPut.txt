@@ -1,0 +1,11 @@
+ PUT			To create new objects, databases, documents, views and design documents
+  /_config/{section}/{key}		Sets the specified configuration value
+  /{db}			Creates a new database
+   /_design/{ddoc}	Creates a new design document or new version of an existing one
+    /_update/{func}/{docid}		Executes an update function against the specified document
+    /{attname}		Adds an attachment of a design document
+   /_local/{docid}	Inserts a new version of the local document
+   /_revs_limit		Sets the limit of historical revisions to store for a single document in the database
+   /_security		Sets the special security object for the database
+   /{docid}		Creates a new document or new version of an existing document
+    /{attname}		Adds an attachment of a documen

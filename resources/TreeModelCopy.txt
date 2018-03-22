@@ -1,0 +1,4 @@
+ COPY			To copy documents and objects
+  /{db}/_design/{ddoc}	Copies the design document
+  /{db}/_local/{docid}	Copies the local document within the same database
+  /{db}/{docid}		Copies the document within the same database

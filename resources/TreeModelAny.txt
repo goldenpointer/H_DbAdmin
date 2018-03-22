@@ -1,0 +1,2 @@
+ ANY			To rewrite	 
+  /{db}/_design/{ddoc}/_rewrite/{path}		Rewrites HTTP request for the specified path by using stored array of routing rules or javascript function
