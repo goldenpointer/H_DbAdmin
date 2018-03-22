@@ -6,7 +6,7 @@
 
 #include "HDbAdminWindow.h"
 #include "HttpAdapter.h"
-#include "thirdparty/TreeModel.h"
+#include "qbase/examples/widgets/itemviews/simpletreemodel/TreeModel.h"
 
 HDbAdminWindow::HDbAdminWindow(QWidget *parent) :
     QMainWindow(parent),

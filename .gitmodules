@@ -1,0 +1,3 @@
+[submodule "qbase"]
+	path = qbase
+	url = https://github.com/qt/qtbase.git
