@@ -28,14 +28,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         src/main.cpp \
         src/HttpAdapter.cpp \
-        thirdparty/TreeItem.cpp \
-        thirdparty/TreeModel.cpp \
+        qbase/examples/widgets/itemviews/simpletreemodel/TreeItem.cpp \
+        qbase/examples/widgets/itemviews/simpletreemodel/TreeModel.cpp \
     src/HDbAdminWindow.cpp
 
 HEADERS += \
         src/HttpAdapter.h \
-        thirdparty/TreeItem.h \
-        thirdparty/TreeModel.h \
+        qbase/examples/widgets/itemviews/simpletreemodel/TreeItem.h \
+        qbase/examples/widgets/itemviews/simpletreemodel/TreeModel.h \
     src/HDbAdminWindow.h
 
 
