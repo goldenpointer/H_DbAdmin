@@ -1,0 +1,24 @@
+ POST			To upload data 
+  /_replicate		Starts or cancels the replication 	
+  /_restart		Restarts the server
+  /_session		Authenticates user by Cookie-based user login
+  /{db}			Creates a new document with generated ID if _id is not specified
+   /_all_docs		Returns certain rows from the built-in view of all documents
+   /_bulk_docs		Inserts or updates multiple documents in to the database in a single request
+   /_changes		Returns changes for the given database for certain document IDs
+   /_compact		Starts a compaction for the database
+    /{ddoc}		Starts a compaction for all the views in the selected design document
+   /_design/{ddoc}/_list/{func}/{other-ddoc}/{view}	Same as GET method for the related endpoint
+   /_design/{ddoc}/_list/{func}/{view}			Same as GET method for the related endpoint
+   /_design/{ddoc}/_show/{func}				Same as GET method for the related endpoint
+   /_design/{ddoc}/_show/{func}/{docid}			Same as GET method for the related endpoint
+   /_design/{ddoc}/_update/{func}			Executes an update function against the null document
+   /_design/{ddoc}/_view/{view}				Returns results for the specified queries
+   /_ensure_full_commit					Makes sure all uncommitted changes are written and synchronized to the disk
+   /_explain		Identify which index is being used by a particular query.
+   /_find		Find documents within a given database
+   /_index		Create a new index.
+   /_missing_revs	By given list of document revisions returns the document revisions that do not exist in the database
+   /_purge		Purges some historical documents entirely from database history
+   /_revs_diff		By given list of document revisions returns differences between the given revisions and ones that are in the database
+   /_view_cleanup	Removes view files that are not used by any design document

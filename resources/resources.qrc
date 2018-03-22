@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>TreeModelGet.txt</file>
+        <file>TreeModelPut.txt</file>
+        <file>TreeModelPost.txt</file>
+        <file>TreeModelDelete.txt</file>
+        <file>TreeModelHead.txt</file>
+        <file>TreeModelCopy.txt</file>
+        <file>TreeModelAny.txt</file>
+        <file>Icon.png</file>
+    </qresource>
+</RCC>
