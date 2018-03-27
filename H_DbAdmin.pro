@@ -30,13 +30,13 @@ SOURCES += \
         src/HttpAdapter.cpp \
         qbase/examples/widgets/itemviews/simpletreemodel/TreeItem.cpp \
         qbase/examples/widgets/itemviews/simpletreemodel/TreeModel.cpp \
-    src/HDbAdminWindow.cpp
+        src/HDbAdminWindow.cpp
 
 HEADERS += \
         src/HttpAdapter.h \
         qbase/examples/widgets/itemviews/simpletreemodel/TreeItem.h \
         qbase/examples/widgets/itemviews/simpletreemodel/TreeModel.h \
-    src/HDbAdminWindow.h
+        src/HDbAdminWindow.h
 
 
 FORMS += \
