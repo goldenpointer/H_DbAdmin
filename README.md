@@ -1,4 +1,4 @@
-<img src="resources/Icon.png" align="center" /> 
+<img src="resources/Icon.png" align="center" style="width: 200px;"/> 
 
 # H_DbAdmin
 
